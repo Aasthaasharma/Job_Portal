@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header class="header">
+        <section class="flex">
+            <div id="menu-btn" class="fas fa-bars-staggered"></div>
+            <a href="home.html" class="logo"><i class="fas fa-briefcase"></i>
+                JobHunt.</a>
+            <nav class="navbar">
+                <a href="home.html">home</a>
+                <a href="about.html">about us</a>
+                <a href="jobs.html">all jobs</a>
+                <a href="contact.html">contact us</a>
+                <a href="login.html">account</a>
+            </nav>
+
+            <a href="login.html" class="btn" style="margin-top: 0;">post jobs</a>
+        </section>
+
+    </header>
+
+
+    <!-- home section starts  -->
+    <div class="home-container">
+
+        <section class="home">
+            <form action="" method="post">
+                <h3>find your next job</h3>
+                <p>job title <span>*</span></p>
+                <input type="text" name="title" placeholder="keyword,category or company" required maxlength="20"
+                    class="input">
+                <p>job location</p>
+
+                <input type="text" name="location" placeholder="city,state or country" required maxlength="50"
+                    class="input">
+                <input type="submit" value="search job" class="btn" name="search">
+            </form>
+        </section>
+    </div>
+
+    <!-- category section starts  -->
+    <section class="category">
+        <h1 class="heading">job categories</h1>
+        <div class="box-container">
+            <a href="#" class="box">
+                <i class="fas fa-code"></i>
+                <div>
+                    <h3>development</h3>
+                    <span>2200 jobs</span>
+                </div>
+
+            </a>
+            <a href="#" class="box">
+                <i class="fas fa-pen"></i>
+                <div>
+                    <h3>designer</h3>
+                    <span>500 jobs</span>
+                </div>
+
+            </a>
+            <a href="#" class="box">
+                <i class="fas fa-wrench"></i>
+                <div>
+                    <h3>engineer</h3>
+                    <span>500 jobs</span>
+                </div>
+
+            </a>
+            <a href="#" class="box">
+                <i class="fas fa-headset"> </i>
+                <div>
+                    <h3>service</h3>
+                    <span>3500 jobs</span>
+                </div>
+
+            </a>
+            <a href="#" class="box">
+                <i class="fas fa-bullhorn"> </i>
+                <div>
+                    <h3>marketing</h3>
+                    <span>1245 jobs</span>
+                </div>
+
+            </a>
+            <a href="#" class="box">
+                <i class="fas fa-chalkboard-user"></i>
+                <div>
+                    <h3>teacher</h3>
+                    <span>550 jobs</span>
+                </div>
+
+            </a>
+            <a href="#" class="box">
+                <i class="fas fa-pen"> </i>
+                <div>
+                    <h3>finance</h3>
+                    <span>1075 jobs</span>
+                </div>
+
+            </a>
+            <a href="#" class="box">
+                <i class="fas fa-person-digging"> </i>
+                <div>
+                    <h3>labour</h3>
+                    <span>4000 jobs</span>
+                </div>
+
+            </a>
+
+        </div>
+    </section>
+    <!-- category section ends  -->
+
+    <!-- jobs section starts  -->
+
+    <section class="jobs-container">
+
+        <h1 class="heading">latest jobs</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="company">
+                    <img src="images/icon-1.jpg" alt="">
+                    <div>
+                        <h3>IT infotech co.</h3>
+                        <span>3 days ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">senior system engineer</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>Noida,India</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>35k - 50k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>full-time</span></p>
+                    <p><i class="fas fa-clock"></i><span>day-shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">view details</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="company">
+                    <img src="images/icon-2.png" alt="">
+                    <div>
+                        <h3>CNB info</h3>
+                        <span>3 days ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">PHP Developer</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>Bengaluru,India</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>50k - 70k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>fresher</span></p>
+                    <p><i class="fas fa-clock"></i><span>fixed shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">view details</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="company">
+                    <img src="images/icon-3.png" alt="">
+                    <div>
+                        <h3>Web Solutions</h3>
+                        <span>1 week ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">Web Developer</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>Gurgaon,India</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>20k - 30k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>full-time</span></p>
+                    <p><i class="fas fa-clock"></i><span>day-shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">view details</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="company">
+                    <img src="images/icon-4.png" alt="">
+                    <div>
+                        <h3>Era Tech</h3>
+                        <span>5 days ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">Java Developer</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>Mumbai,India</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>45k - 50k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>full-time</span></p>
+                    <p><i class="fas fa-clock"></i><span>day-shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">view details</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="company">
+                    <img src="images/icon-5.png" alt="">
+                    <div>
+                        <h3>Creation spot</h3>
+                        <span>2 days ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">Web designer</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>Noida,India</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>20k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>part-time</span></p>
+                    <p><i class="fas fa-clock"></i><span>flexible shifts</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">view details</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="company">
+                    <img src="images/icon-6.png" alt="">
+                    <div>
+                        <h3>Datum in</h3>
+                        <span>4 days ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">Data Scientist </h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>Pune,India</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>60k - 90k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>full-time</span></p>
+                    <p><i class="fas fa-clock"></i><span>day shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">view details</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
+            <a href="jobs.html" class="btn">view all</a>
+
+        </div>
+
+    </section>
+
+    <!-- jobs section ends  -->
+
+    <!-- about us section starts  -->
+
+    <div class="section-title">about us</div>
+
+    <section class="about">
+        <img src="images/about-img.jpg" alt="">
+        <div class="box">
+            <h3>
+                why choose us?
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quam voluptate, eaque quo molestias ut
+                dicta ipsa. Eligendi reprehenderit commodi provident dolorem perspiciatis porro, deleniti iure error
+                repudiandae, illo consequuntur quo ad repellendus autem explicabo odio exercitationem sunt obcaecati
+                adipisci odit. Neque recusandae atque, omnis corporis animi illum ut nobis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati magni nisi dolorum labore! Omnis in
+                accusantium voluptatem blanditiis temporibus qui id laborum, eos, magnam mollitia, porro consectetur
+                ipsum culpa expedita.</p>
+
+            <a href="Contact.html" class="btn">contact us</a>
+        </div>
+    </section>
+    <!-- about us section ends  -->
+    <!-- reviews section starts  -->
+    <div class="section-title">top reviews</div>
+    <section class="reviews">
+
+        <div class="box-container">
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3 class="title">amazing results</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo fugiat officia laborum ducimus
+                commodi excepturi ipsam perferendis adipisci accusantium voluptates?</p> 
+                <div class="user">
+                    <img src="images/pic-1.webp" alt="">
+                    <div>
+                    <h3>Dart Ben</h3>
+                    <span>web designer</span>
+                </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3 class="title">easy to use</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo fugiat officia laborum ducimus
+                commodi excepturi ipsam perferendis adipisci accusantium voluptates?</p> 
+                <div class="user">
+                    <img src="images/pic-2.avif" alt="">
+                    <div>
+                    <h3>John Green</h3>
+                    <span>teacher</span>
+                </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3 class="title">got selected</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo fugiat officia laborum ducimus
+                commodi excepturi ipsam perferendis adipisci accusantium voluptates?</p> 
+                <div class="user">
+                    <img src="images/pic-3.jpeg" alt="">
+                    <div>
+                    <h3>phoebe buffay</h3>
+                    <span>associate system engineer</span>
+                </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3 class="title">Career advancement</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo fugiat officia laborum ducimus
+                commodi excepturi ipsam perferendis adipisci accusantium voluptates?</p> 
+                <div class="user">
+                    <img src="images/pic-4.jpeg" alt="">
+                    <div>
+                    <h3>Monica</h3>
+                    <span>web developer</span>
+                </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3 class="title">nice experience</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo fugiat officia laborum ducimus
+                commodi excepturi ipsam perferendis adipisci accusantium voluptates?</p> 
+                <div class="user">
+                    <img src="images/pic-5.jpeg" alt="">
+                    <div>
+                    <h3>Joey Tribbiani</h3>
+                    <span>Tester</span>
+                </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3 class="title">wide range</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo fugiat officia laborum ducimus
+                commodi excepturi ipsam perferendis adipisci accusantium voluptates?</p> 
+                <div class="user">
+                    <img src="images/pic-6.jpeg" alt="">
+                    <div>
+                    <h3>Rachel Mon</h3>
+                    <span>DevOps Engineer</span>
+                </div>
+                </div>
+            </div>
+            
+            
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer section starts  -->
+    <footer class="footer">
+        <section class="grid">
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="home.html"><i class="fas fa-angle-right"></i>Home</a>
+                <a href="about.html"><i class="fas fa-angle-right"></i>about us</a>
+                <a href="jobs.html"><i class="fas fa-angle-right"></i>all jobs</a>
+                <a href="contact.html"><i class="fas fa-angle-right"></i>contact us</a>
+                <a href="#"><i class="fas fa-angle-right"></i>filter search</a>
+            </div>
+            <div class="box">
+                <h3>extra Links</h3>
+                <a href="#"><i class="fas fa-angle-right"></i>account</a>
+                <a href="login.html"><i class="fas fa-angle-right"></i>login</a>
+                <a href="login.html"><i class="fas fa-angle-right"></i>register</a>
+                <a href="#"><i class="fas fa-angle-right"></i>post job</a>
+                <a href="#"><i class="fas fa-angle-right"></i>dashboard</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+                <a href="#"><i class="fab fa-youtube"></i> youtube</a>
+            </div>
+        </section>
+
+        <div class="credit">&copy; copyright @ 2023 by <span>Aastha Sharma</span> | all rights reserved!</div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
